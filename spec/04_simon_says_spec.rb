@@ -21,6 +21,8 @@ describe "Simon says" do
     end
   end
 
+
+
   describe "repeat" do
     it "should repeat" do
       expect(repeat("hello")).to eq("hello hello")
@@ -61,6 +63,7 @@ describe "Simon says" do
       expect(first_word("oh dear")).to eq("oh")
     end
   end
+
 
   describe "titleize" do
     it "capitalizes a word" do
