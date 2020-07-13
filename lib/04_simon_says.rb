@@ -23,7 +23,7 @@ def titleize(x)
   x = x.split (" ") #On découpe !
 
   x.each do |w|
-    if w.length > 3 or w == x.first #Si le terme est plus grand que 3 et est en première position alors -> 
+    if w.length > 3 or w == x.first #Si le terme est plus grand que 3 et est en première position alors ->
       w = w.capitalize!
     end
   end
